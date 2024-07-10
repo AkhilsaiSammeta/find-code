@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#image-input {
+  margin-bottom: 20px;
+}
+
+#find-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#find-btn:hover {
+  background-color: #3e8e41;
+}
+
+#color-codes {
+  margin-top: 20px;
+}
+
+.color-code {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.color-code span {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
